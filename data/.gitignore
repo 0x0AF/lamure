@@ -1,0 +1,11 @@
+bunny.lod
+papers
+geometric
+tinymeshes
+bunny.bvh
+geometric/
+papers/
+logs/
+regression/
+tinymeshes/
+big_lion/
