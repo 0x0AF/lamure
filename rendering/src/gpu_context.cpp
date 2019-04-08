@@ -59,7 +59,7 @@ void gpu_context::create(scm::gl::render_device_ptr device)
 
     model_database *database = model_database::get_instance();
 
-    assert(false);
+    //assert(false);
 
     temp_buffer_a_ = new gpu_access(device, upload_budget_in_nodes_, database->get_primitives_per_node(), false);
     temp_buffer_b_ = new gpu_access(device, upload_budget_in_nodes_, database->get_primitives_per_node(), false);
